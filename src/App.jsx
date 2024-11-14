@@ -7,7 +7,7 @@ import About from "./component/pages/About";
 import Signup from "./component/pages/Signup";
 import Login from "./component/pages/Login";
 import Why from "./component/pages/Why"
-import Invest from "./component/pages/invest";
+import Invest from "./component/pages/Invest";
 import Testimonals from "./component/pages/Testimonals";
 import Policy from "./component/pages/Policy";
 import Partner from "./component/pages/Partner";
