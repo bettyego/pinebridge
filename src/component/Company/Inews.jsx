@@ -16,7 +16,7 @@ const Inews = () => {
         
         {/* Insight Box 2 */}
         <div className="bg-white shadow-md p-4 rounded-lg">
-          <img src="src/component/Company/isi-nov-2024-v2.webp" alt="" />
+          <img src="/isi-nov-2024-v2.webp" alt="" />
           <h2 className="text-lg font-bold text-gray-700 mb-2">Investment Strategy Insights: How Trump 2.0’s Tariff Policy Could Reshape the Corporate Landscape</h2>
           <p className="text-sm text-gray-600 mb-2">1 November 2024 | Multi-Asset</p>
           <p className="text-sm text-gray-600">By Hani Redha, CAIA</p>

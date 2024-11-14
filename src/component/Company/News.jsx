@@ -31,19 +31,19 @@ const News = () => {
           </div>
           {/* News Box 4 */}
           <div className="bg-white shadow-md p-4 rounded-lg">
-            <img src="src/component/Company/Print-Cover-Image_In-the-News-6.webp" alt="" />
+            <img src="/Print-Cover-Image_In-the-News-6.webp" alt="" />
             <h2 className="text-lg font-bold text-gray-700 mb-2">Bloomberg: Anders Faergemann on Emerging Market Debt</h2>
             <p className="text-sm text-gray-600 mb-2">9 October 2024 | Fixed Income</p>
           </div>
           {/* News Box 5 */}
           <div className="bg-white shadow-md p-4 rounded-lg">
-            <img src="src/component/Company/Print-Cover-Image_In-the-News.webp" alt="" />
+            <img src="/Print-Cover-Image_In-the-News.webp" alt="" />
             <h2 className="text-lg font-bold text-gray-700 mb-2">Bloomberg: Tadashi Matsukawa discusses Japanese fixed income</h2>
             <p className="text-sm text-gray-600 mb-2">9 October 2024 | Fixed Income</p>
           </div>
           {/* News Box 6 */}
           <div className="bg-white shadow-md p-4 rounded-lg">
-            <img src="src/component/Company/CNBC-TV-Tadashi-Matsukawa-shares-his-insight-on-Japanese-bonds.webp" alt="" />
+            <img src="/CNBC-TV-Tadashi-Matsukawa-shares-his-insight-on-Japanese-bonds.webp" alt="" />
             <h2 className="text-lg font-bold text-gray-700 mb-2">CNBC TV: Tadashi Matsukawa shares his insight on Japanese bonds</h2>
             <p className="text-sm text-gray-600 mb-2">7 October 2024 | Fixed Income</p>
           </div>
