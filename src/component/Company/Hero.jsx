@@ -9,7 +9,7 @@ const Hero = () => {
       muted 
       className="absolute top-0 left-0 h-screen w-full object-fit object-cover"
     >
-      <source src="src/assets/3248216-uhd_3840_2160_25fps.mp4" type="video/mp4" />
+      <source src="/3248216-uhd_3840_2160_25fps.mp4" type="video/mp4" />
     </video>
     <div className="p-28 items-center text-center relative z-10">
       <h1 className="font-bold text-5xl leading-relaxed text-white w-full">
