@@ -1,7 +1,8 @@
 
 import React from 'react';
-
+import { useNavigate } from 'react-router-dom';
 const Investment = () => {
+  const navigate = useNavigate();
   return (
     <div className=''>
       <div className="max-w-7xl mx-auto p-12">
@@ -28,7 +29,7 @@ const Investment = () => {
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">24 Hours</td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">1.5% after 24 Hours</td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">10%</td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign Up</button></td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={()=> navigate('/signup')}>Sign Up</button></td>
                     </tr>
                     <tr>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Bronze Plan</td>
@@ -36,7 +37,7 @@ const Investment = () => {
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">3 Days</td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">2% daily for 3 days</td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">10%</td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign Up</button></td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={()=> navigate('/signup')}>Sign Up</button></td>
                     </tr>
                     <tr>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Silver Plan</td>
@@ -44,7 +45,7 @@ const Investment = () => {
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">4 Days</td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">2.5% daily for 4 days</td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">10%</td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign Up</button></td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={()=> navigate('/signup')}>Sign Up</button></td>
                     </tr>
                     <tr>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Gold Plan</td>
@@ -52,7 +53,7 @@ const Investment = () => {
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">7 Days</td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">3% daily for 7 days</td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">10%</td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign Up</button></td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={()=> navigate('/signup')}>Sign Up</button></td>
                     </tr>
                     <tr>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Diamond Plan</td>
@@ -60,7 +61,7 @@ const Investment = () => {
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">9 Days</td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">3.5% daily for 9 days</td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">10%</td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign Up</button></td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={()=> navigate('/signup')}>Sign Up</button></td>
                     </tr>
                     <tr>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">VIP Plan</td>
@@ -68,7 +69,7 @@ const Investment = () => {
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">2 Weeks</td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">30% after 2 weeks</td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">10%</td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign Up</button></td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={()=> navigate('/signup')}>Sign Up</button></td>
                     </tr>
                     <tr>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Compound Plan</td>
@@ -76,7 +77,7 @@ const Investment = () => {
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">1 Month</td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">45% after 1 month</td>
                       <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">10%</td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Sign Up</button></td>
+                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" onClick={()=> navigate('/signup')}>Sign Up</button></td>
                     </tr>
                   </tbody>
                 </table>

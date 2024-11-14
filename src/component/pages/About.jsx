@@ -31,7 +31,7 @@ const About = () => {
     </section>
 
     <section className=' w-full h-screen p-8 justify-center '>
-      <img className='w-3/4 pl-32' src="src/component/Company/AUM Chart Templates 3Q24 COMBINED v4.svg" alt="" />
+      <img className='w-3/4 pl-32' src="/AUM Chart Templates 3Q24 COMBINED v4.svg" alt="" />
       <div className='p-12 '>
       <p className='p-4 font-thin w-full'>
       *AUM as of 30 September 2024 includes US$99.6 billion (US$69.6 billion equities, US$23.2 billion fixed income, US$6.7 billion multi-asset and US$24.4 million alternatives) of assets managed by joint ventures or other entities not wholly owned by PineBridge Investments. Includes PineBridge Benson Elliot Real Estate AUM of US$4.2 billion

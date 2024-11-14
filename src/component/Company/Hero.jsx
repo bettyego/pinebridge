@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
+  const navigate = useNavigate();
   return (
     <div className="overlay h-screen w-full">
     <video 
@@ -16,7 +18,7 @@ const Hero = () => {
         PineBridge Investments is a private, <br /> 
         global asset manager focused on active, high-conviction investing.
       </h1>
-      <button className="text-lg font-bold text-white bg-blue-500 rounded m-4 p-2">
+      <button className="text-lg font-bold text-white bg-blue-500 rounded m-4 p-2" onClick={()=> navigate('/about')}>
         Learn More
       </button>
     </div>
