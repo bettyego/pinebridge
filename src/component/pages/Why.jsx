@@ -13,7 +13,7 @@ const Why = () => {
     <Header />
 
     <div className='w-full'>
-    <div className="overlay bg-cover bg-center bg-no-repeat h-screen w-full" style={{ backgroundImage: 'url(src/assets/pexels-justus-menke-3490295-5213528.jpg)' }}>
+    <div className="overlay bg-cover bg-center bg-no-repeat h-screen w-full" style={{ backgroundImage: 'url(/pexels-justus-menke-3490295-5213528.jpg)' }}>
       <div className='p-28 items-center  relative z-10 text-white'>
         <h3 className='font-bold text-3xl leading-relaxed w-full'>Corporate Responsibility</h3>
         <h1  className='font-bold text-5xl leading-relaxed w-full'>Company Responsibility</h1>
@@ -33,7 +33,7 @@ const Why = () => {
           <p className='w-3/4 p-4 leading-relaxed'>In our third annual assessment of PineBridge’s corporate responsibility efforts, we take stock of the progress we’ve made as a firm and the work that lies ahead as we advance on our commitments.</p>
           <p className='w-3/4 p-4 leading-relaxed '>Our goals for the year ahead are robust, and we plan to build on the progress made in 2023 to further advance our activities as a responsible investor and global stakeholder – including advocating for our views on long-term value creation through active stewardship and engagement.</p>
          </div>
-         <img src="src/assets/webimage-CR-2024-Thumbnail.webp" alt="" />
+         <img src="/webimage-CR-2024-Thumbnail.webp" alt="" />
         </div>
         {/* <div className='h-screen w-full  justify-center items-center px-36 p-20'>
           <h1 className='font-bold text-5xl leading-relaxed text-black  w-full'>Partnering With Community Programs</h1>
@@ -45,14 +45,14 @@ const Why = () => {
       navigation={true} modules={[Navigation]}
      
     >
-      <SwiperSlide><img src="src/assets/pexels-martine-savard-158139-34543.jpg" alt="style=" className='w-full h-screen 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
-      <SwiperSlide><img src="src/assets/pexels-a-darmel-8134100.jpg" alt="style=" className='w-full h-screen 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
-      <SwiperSlide><img src="src/assets/pexels-dwanghong-29354033.jpg" alt="style=" className='w-full h-screen 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
-      <SwiperSlide><img src="src/assets/pexels-elles-bielitschi-2097331614-29340786.jpg" alt="style=" className='w-full h-screen 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
-      <SwiperSlide><img src="src/assets/pexels-erika-andrade-1358382831-28347064.jpg" alt="style=" className='w-full h-screen 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
-      <SwiperSlide><img src="src/assets/pexels-ihsanaditya-28196491.jpg" alt="style=" className='w-full h-screen 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
-      <SwiperSlide><img src="src/assets/pexels-hyundaimotorgroup-19317897.jpg" alt="style=" className='w-full h-screen 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
-      <SwiperSlide><img src="src/assets/pexels-passengerslover-27036751.jpg" alt="style=" className='w-full h-screen 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
+      <SwiperSlide><img src="/pexels-martine-savard-158139-34543.jpg" alt="style=" className='w-full h-screen 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
+      <SwiperSlide><img src="/pexels-a-darmel-8134100.jpg" alt="style=" className='w-full h-screen 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
+      <SwiperSlide><img src="/pexels-dwanghong-29354033.jpg" alt="style=" className='w-full h-screen 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
+      <SwiperSlide><img src="/pexels-elles-bielitschi-2097331614-29340786.jpg" alt="style=" className='w-full h-screen 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
+      <SwiperSlide><img src="/pexels-erika-andrade-1358382831-28347064.jpg" alt="style=" className='w-full h-screen 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
+      <SwiperSlide><img src="/pexels-ihsanaditya-28196491.jpg" alt="style=" className='w-full h-screen 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
+      <SwiperSlide><img src="/pexels-hyundaimotorgroup-19317897.jpg" alt="style=" className='w-full h-screen 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
+      <SwiperSlide><img src="/pexels-passengerslover-27036751.jpg" alt="style=" className='w-full h-screen 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
       
     </Swiper>
         </div> */}
@@ -64,24 +64,24 @@ const Why = () => {
            </div>
             <div className='h-screen w-full flex justify-center items-center pl-4'>
               <div className=''>
-              <img src="src/assets/oppnet-logo.svg" alt="" className='w-3/5 pb-10' />
+              <img src="/oppnet-logo.svg" alt="" className='w-3/5 pb-10' />
               <h3 className='text-3x1 font-bold pl-12'>New York</h3>
               <p className='w-3/4'>The Opportunity Network seeks to ensure that young people from historically underrepresented backgrounds have equal access to educational and professional opportunities.</p>
               </div>
               <div className=''>
-              <img src="src/assets/thul-ali-forney-center-logo.webp" alt="" className='w-3/5 pb-10' />
+              <img src="/thul-ali-forney-center-logo.webp" alt="" className='w-3/5 pb-10' />
               <h3 className='text-3x1 font-bold pl-12'>New York</h3>
               <p className='w-3/4'>The Ali Forney Center is committed to saving the lives of LGBTQ+ young people, protecting them from the harms of homelessness and empowering them with tools to live independently.</p>
               </div>
               <div className=''>
-              <img src="src/assets/gain-logo.webp" alt="" className='w-3/5 pb-10' />
+              <img src="/gain-logo.webp" alt="" className='w-3/5 pb-10' />
               <h3 className='text-3x1 font-bold pl-12'>London</h3>
               <p className='w-3/4'>Girls Are INvestors is an organization dedicated to improving gender diversity in the asset management industry.</p>
               </div>
               
             </div>
             <div className='w-full  place-items-center pb-6 '>
-              <img src="src/assets/wampilotprogramme.webp" alt="" className='h-fit w-1/4 pb-4 pr-8 ' />
+              <img src="/wampilotprogramme.webp" alt="" className='h-fit w-1/4 pb-4 pr-8 ' />
               <h1 className='font-bold'>Hong Kong</h1>
               <p className='w-1/3'>The Hong Kong Government Subsidized Summer Internship Program (“SIP”) is an intercity initiative to provide undergraduate students exposure to career opportunities in the finance industry.</p>
               </div>
@@ -91,7 +91,7 @@ const Why = () => {
                   <p>#pinebridgepledge brings employees together to take positive action in their local communities, with a focus on youth-oriented and educational programs. Learn more about recent financial literacy initiatives and other volunteer efforts across the globe</p>
                 <button className='bg-green-600 rounded-1xl  '>learn More</button>
                 </div>
-                <img src="src/assets/webimage-1536300065.webp" alt="" className='w-1/4 h-60 object-cover' />
+                <img src="/webimage-1536300065.webp" alt="" className='w-1/4 h-60 object-cover' />
               </div>
         </div>
         

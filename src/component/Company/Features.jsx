@@ -7,7 +7,7 @@ const Features = () => {
     <div className='h-screen text-black flex justify-center items-center w-full  '>
         <div className='flex-col  w-full text-black '>
         <div class="w-full flex gap-x-12 p-8  ">
-    <img src="src/assets/icon-pinebridge-overvie-1.svg" alt="" className='gap-5 h-20 w-20 bg-green-500 rounded-full '/>
+    <img src="/icon-pinebridge-overvie-1.svg" alt="" className='gap-5 h-20 w-20 bg-green-500 rounded-full '/>
       <div  >
       <h3 class="text-1xl w-80 
        mb-2 font-bold ">A Heritage of Active, High-Conviction Investing</h3>
@@ -17,7 +17,7 @@ const Features = () => {
       </div>
     </div >
     <div class="w-full flex gap-x-12 p-8 "    >
-    <img src="src/assets/icon (1).svg" alt="" className='gap-5 h-20 w-20 bg-green-500 rounded-full '/>
+    <img src="/icon (1).svg" alt="" className='gap-5 h-20 w-20 bg-green-500 rounded-full '/>
       <div>
       <h3 class="text-1xl w-80 
        mb-2 font-bold ">Delivering Results Across the Investment Spectrum</h3>
@@ -27,7 +27,7 @@ const Features = () => {
       </div>
     </div>
     <div class="w-full flex gap-x-12 p-8 "  >
-    <img src="src/assets/CollaborativeSpirit_Icon (1).svg" alt="" className='gap-5 h-20 w-20 bg-green-500 rounded-full '/>
+    <img src="/CollaborativeSpirit_Icon (1).svg" alt="" className='gap-5 h-20 w-20 bg-green-500 rounded-full '/>
       <div>
       <h3 class="text-1xl w-80 
        mb-2 font-bold ">A Collaborative Spirit</h3>

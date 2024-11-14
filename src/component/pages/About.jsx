@@ -13,7 +13,7 @@ const About = () => {
       muted 
       className="absolute top-0 left-0 h-screen w-full object-fit object-cover"
     >
-      <source src="src/assets/8783011-hd_1920_1080_30fps.mp4" type="video/mp4" />
+      <source src="/8783011-hd_1920_1080_30fps.mp4" type="video/mp4" />
     </video>
     <div className="p-28 items-center  relative z-10">
       <p className='font-bold text-3xl leading-relaxed text-white w-full'>who are we</p>

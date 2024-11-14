@@ -17,7 +17,7 @@ const Introduction  = () => {
     <div class=" flex-col flex w-full  text-black  items-center">
       
         <div class="w-2/3 flex gap-x-16 " data-aos="fade-up">
-        <img src="src/assets/hp_Icon_MA.svg" alt="" className='w-24'/>
+        <img src="/hp_Icon_MA.svg" alt="" className='w-24'/>
           <div>
             
           <h3 class="text-2xl font-bold
@@ -28,7 +28,7 @@ const Introduction  = () => {
           </div>
     </div>
     <div class="p-4 text-white flex gap-x-12 w-2/3 " data-aos="fade-up">
-      <img src="src/assets/hp_icon_FI.svg" alt="" />
+      <img src="/hp_icon_FI.svg" alt="" />
         <div>
         <h3 class="text-2xl font-boldt
         text-white mb-2">Fixed Income</h3>
@@ -38,7 +38,7 @@ const Introduction  = () => {
         </div>
     </div>
     <div class="p-4 text-white flex gap-x-12 w-2/3" data-aos="fade-up">
-      <img src="src/assets/hp_icon_Equities.svg" alt="" />
+      <img src="/hp_icon_Equities.svg" alt="" />
         <div>
         <h3 class="text-2xl font-boldt
         text-white mb-2">Equities</h3>
@@ -48,7 +48,7 @@ const Introduction  = () => {
         </div>
     </div>
     <div class="p-4 text-white flex gap-x-12 w-2/3" data-aos="fade-up">
-      <img src="src/assets/hp_icon_Alts.svg" alt="" />
+      <img src="/hp_icon_Alts.svg" alt="" />
         <div>
         <h3 class="text-2xl font-boldt
         text-white mb-2">  Alternatives</h3>

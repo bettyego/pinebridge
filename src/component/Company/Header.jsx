@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <div className='flex  text-gray-600 w-full pt-2 pb-2 pl-2'>
-        <img src="src/assets/pinebridge-old-green-logo.svg" alt="" className='w-52' />
+        <img src="/pinebridge-old-green-logo.svg" alt="" className='w-52' />
         <ul className='flex justify-around  w-full'>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About Us</Link></li>

@@ -13,19 +13,19 @@ const News = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {/* News Box 1 */}
           <div className="bg-white shadow-md p-4 rounded-lg">
-            <img src="src/assets/Press-Release-Cover_News-Media.webp" alt="" />
+            <img src="/Press-Release-Cover_News-Media.webp" alt="" />
             <h2 className="text-lg font-bold text-gray-700 mb-2">Bloomberg: Anders Faergemann shares his outlook for Emerging Markets</h2>
             <p className="text-sm text-gray-600 mb-2">21 October 2024 | Fixed Income</p>
           </div>
           {/* News Box 2 */}
           <div className="bg-white shadow-md p-4 rounded-lg">
-            <img src="src/assets/Print-Cover-Image_In-the-News-3.webp" alt="" />
+            <img src="/Print-Cover-Image_In-the-News-3.webp" alt="" />
             <h2 className="text-lg font-bold text-gray-700 mb-2">Bloomberg UK: Anders Faergemann discusses Indian Sovereign bonds</h2>
             <p className="text-sm text-gray-600 mb-2">16 October 2024 | Fixed Income</p>
           </div>
           {/* News Box 3 */}
           <div className="bg-white shadow-md p-4 rounded-lg">
-            <img src="src/assets/Yahoo-Finance-Hani-Redha-shares-insights-on-Q3-earnings.webp" alt="" />
+            <img src="/Yahoo-Finance-Hani-Redha-shares-insights-on-Q3-earnings.webp" alt="" />
             <h2 className="text-lg font-bold text-gray-700 mb-2">Yahoo Finance: Hani Redha shares insights on Q3 earnings</h2>
             <p className="text-sm text-gray-600 mb-2">14 October 2024 | Equities, Multi-Asset</p>
           </div>
