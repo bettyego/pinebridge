@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+    .footer-section {
+      flex-direction: column;
+      text-align: center;
+    }
+    .social-link {
+      margin-bottom: 10px;
+    }
+  }
+  

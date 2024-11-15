@@ -1,0 +1,44 @@
+/* General mobile adjustments */
+@media (max-width: 768px) {
+    .h-screen {
+      height: auto; /* Allow content to control height */
+    }
+    .w-full {
+      width: 100%; /* Ensure full width usage */
+    }
+    .p-4 {
+      padding: 1rem; /* Slightly smaller padding */
+    }
+    .text-2xl, .text-xl {
+      font-size: 1.125rem; /* Adjust for readability on small screens */
+    }
+    .text-3xl {
+      font-size: 1.5rem;
+    }
+    .gap-x-8, .gap-x-12, .gap-x-16 {
+      gap: 1rem; /* Reduce gaps for better spacing */
+    }
+    img {
+      width: 12rem; /* Smaller image sizes */
+    }
+    button {
+      width: 100%; /* Button spans the width on mobile */
+      margin-top: 1rem; /* Add space on top */
+    }
+  }
+  
+  /* Tablet adjustments */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .md\\:w-1\\ {
+      width: 48%; /* Slightly smaller for side-by-side on tablets */
+    }
+    .md\\:p-8 {
+      padding: 1.5rem; /* Reduce padding */
+    }
+    .md\\:mt-0 {
+      margin-top: 1rem; /* Add spacing */
+    }
+    .md\\:gap-x-16 {
+      gap: 1.5rem; /* Reduce spacing */
+    }
+  }

@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../Company/Header'
+import Header from '../Company/Header/Header'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';

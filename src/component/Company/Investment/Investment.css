@@ -1,0 +1,56 @@
+/* Base styles for large screens (Desktops) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 16px;
+    text-align: left;
+  }
+  
+  @media (max-width: 1024px) {
+    /* Tablets or smaller screens */
+    th, td {
+      padding: 12px;
+    }
+  
+    /* Table content stacking (justifying for smaller width) */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+  
+    .overflow-x-auto {
+      overflow-x: scroll;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    /* Phones or very small screens */
+    th, td {
+      padding: 10px;
+      font-size: 12px; /* Smaller text size for smaller screens */
+    }
+  
+    table {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      white-space: nowrap;
+    }
+  
+    th, td {
+      display: inline-block;
+      width: auto;
+    }
+  
+    .bg-gray-50 {
+      display: none; /* Hides header row for smaller screens */
+    }
+  
+    .divide-y {
+      border-bottom: 1px solid #ddd;
+    }
+  }
+  

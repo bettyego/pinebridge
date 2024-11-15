@@ -1,0 +1,23 @@
+/* Custom media queries for adjusting layout and text size */
+@media (max-width: 768px) {
+    .feature-heading {
+      font-size: 1.25rem; /* Smaller text for mobile */
+    }
+    .feature-paragraph {
+      width: 100%; /* Full width for smaller screens */
+    }
+    .feature-img {
+      width: 16rem; /* Adjust image size */
+      height: 16rem;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .feature-heading {
+      font-size: 1.5rem; /* Larger text for desktop */
+    }
+    .feature-paragraph {
+      width: 80%; /* Keep text narrower */
+    }
+  }
+  

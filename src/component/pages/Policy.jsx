@@ -1,4 +1,4 @@
-import Header from '../Company/Header'
+import Header from '../Company/Header/Header'
 
 const Policy = () => {
   return (

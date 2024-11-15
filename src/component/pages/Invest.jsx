@@ -1,6 +1,6 @@
 
 import React from 'react'
-import Header from '../Company/Header'
+import Header from '../Company/Header/Header'
 const Invest= () => {
   return (
     <>

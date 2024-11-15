@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { CiMenuFries } from "react-icons/ci";
 import { useState } from 'react';
+import './Header.css'
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (

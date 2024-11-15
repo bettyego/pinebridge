@@ -1,5 +1,5 @@
-import Header from '../Company/Header'
-import Footer from '../Company/Footer'
+import Header from '../Company/Header/Header'
+import Footer from '../Company/Footer/Footer'
 
 const Partner = () => {
   return (
