@@ -1,6 +1,7 @@
 
 import React from 'react'
-import Header from '../Company/Header/Header'
+import Header from '../../Company/Header/Header'
+import Footer from '../../Company/Footer/Footer';
 const Invest= () => {
   return (
     <>
@@ -88,6 +89,7 @@ const Invest= () => {
         </div>
       </div>
     </div>
+    <Footer />
     </> 
   );
 };

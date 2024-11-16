@@ -2,15 +2,15 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Route,Routes } from "react-router-dom";
-import Home from "./component/pages/Home";
-import About from "./component/pages/About";
-import Signup from "./component/pages/Signup";
-import Login from "./component/pages/Login";
-import Why from "./component/pages/Why"
-import Invest from "./component/pages/Invest";
-import Testimonals from "./component/pages/Testimonals";
-import Policy from "./component/pages/Policy";
-import Partner from "./component/pages/Partner";
+import Home from "./component/pages/Home/Home";
+import About from "./component/pages/About/About";
+import Signup from "./component/pages/Signup/Signup";
+import Login from "./component/pages/Login/Login";
+import Why from "./component/pages/why/Why"
+import Invest from "./component/pages/Invest/Invest";
+import Testimonals from "./component/pages/Testimonals/Testimonals";
+import Policy from "./component/pages/Policy/Policy";
+// import Partner from "./component/pages/Partner/Partner";
 
 
 const App = () => {
@@ -33,7 +33,7 @@ const App = () => {
         <Route path="/invest"  element={<Invest/>}/>
         <Route path="/testimonials"  element={<Testimonals/>}/>
         <Route path="/policy"  element={<Policy/>}/>
-        <Route path="/partner"  element={<Partner/>}/>
+        {/* <Route path="/partner"  element={<Partner/>}/> */}
       </Routes>
     
       

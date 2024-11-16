@@ -1,4 +1,6 @@
 import React from 'react';
+import Header from '../../Company/Header/Header';
+import Footer from '../../Company/Footer/Footer';
 
 // Sample reviews data
 const reviews = [
@@ -15,7 +17,10 @@ const reviews = [
 ];
 
 const Testimonials = () => {
+
   return (
+    <>
+    < Header/>
     <div className="p-6 max-w-3xl mx-auto">
       <h2 className="text-2xl font-bold mb-6">Customer Reviews</h2>
       {reviews.map((review) => (
@@ -25,6 +30,8 @@ const Testimonials = () => {
         </div>
       ))}
     </div>
+    <Footer />
+    </>
   );
 };
 

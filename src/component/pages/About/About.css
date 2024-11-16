@@ -1,0 +1,100 @@
+/* Base styles for large screens (Desktops) */
+h1, h2, p {
+    padding: 0;
+    margin: 0;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Tablet screens */
+  @media (max-width: 1024px) {
+    .p-28 {
+      padding: 16px;
+    }
+  
+    /* .w-3/4 {
+      width: 80%;
+    } */
+  
+    .text-5xl {
+      font-size: 3rem;
+    }
+  
+    .text-3xl {
+      font-size: 2rem;
+    }
+  
+    .px-28 {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .overlay video {
+      height: 50%;
+      object-position: top;
+    }
+  
+    .p-8 {
+      padding: 16px;
+    }
+  
+    /* .w-3/4 {
+      width: 90%;
+    } */
+  }
+  
+  /* Phones and smaller screens */
+  @media (max-width: 768px) {
+    .overlay video {
+      height: 150%;
+    }
+  
+    .p-28 {
+      padding: 12px;
+    }
+  
+    .text-5xl {
+      font-size: 2rem;
+    }
+  
+    .text-2xl {
+      font-size: 1.5rem;
+    }
+  
+    .p-4 {
+      padding: 8px;
+    }
+  
+    /* .w-3/4 {
+      width: 100%;
+    } */
+  
+    .pl-32 {
+      padding-left: 0;
+    }
+  
+    .h-screen {
+      height: auto;
+    }
+  
+    .p-12 {
+      padding: 8px;
+    }
+  
+    .font-thin {
+      font-weight: 300;
+    }
+  
+    img {
+      width: 100%;
+    }
+  
+    .bg-blue-900 {
+      padding: 12px;
+      font-size: 14px;
+    }
+  }
+  

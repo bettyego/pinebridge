@@ -1,4 +1,6 @@
-import Header from '../Company/Header/Header'
+import Header from '../../Company/Header/Header'
+import './Policy.css'
+import Footer from '../../Company/Footer/Footer'
 
 const Policy = () => {
   return (
@@ -115,7 +117,7 @@ const Policy = () => {
   </p>
 </div>
 
-
+<Footer />
     </>
   )
 }

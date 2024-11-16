@@ -6,7 +6,7 @@ import './Header.css'
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className='flex  text-gray-600 w-full pt-2 pb-2 pl-2 justify-between items-center '>
+    <div className='flex  text-gray-600 w-full pt-2 pb-2 pl-2 justify-between items-center  '>
         <img src="/pinebridge-old-green-logo.svg" alt="" className='w-52' />
         <div className='menu-container text-4xl' onClick={()=>{
           setOpen(!open)
@@ -21,7 +21,7 @@ const Header = () => {
                     <li><Link to="/why">Why Us</Link></li>
                     <li><Link to="/invest">Earning</Link></li>
                     <li><Link to="/testimonials">Testimonals</Link></li>
-                    <li><Link to="/partner">Partnership</Link></li>
+                    <li><Link to="/Mem">Partnership</Link></li>
                     <li><Link to="/policy">Policy</Link></li>
                     <li><Link to="">Help</Link></li>
                     <li><Link to="/signup">sign Up</Link></li>

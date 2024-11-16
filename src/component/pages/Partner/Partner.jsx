@@ -1,7 +1,7 @@
 import Header from '../Company/Header/Header'
 import Footer from '../Company/Footer/Footer'
 
-const Partner = () => {
+const Partner= () => {
   return (
     <>
     <Header />
