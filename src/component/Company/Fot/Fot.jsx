@@ -1,5 +1,5 @@
 import React from 'react';
-import './fot.css';  // Import the CSS file
+import './Fot.css';  // Import the CSS file
 
 const Fot = () => {
   return (
