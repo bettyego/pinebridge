@@ -1,4 +1,17 @@
 /* Base styles for large screens (Desktops) */
+/* .about{
+  position: relative;
+  
+}
+.about::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  background-color: rgba(33, 36, 230, 0.212);
+  height: 100%;
+  top:0;
+  left :0;
+} */
 h1, h2, p {
     padding: 0;
     margin: 0;
@@ -33,7 +46,7 @@ h1, h2, p {
     }
   
     .overlay video {
-      height: 50%;
+      height: 100%;
       object-position: top;
     }
   
@@ -48,7 +61,7 @@ h1, h2, p {
   
   /* Phones and smaller screens */
   @media (max-width: 768px) {
-    .overlay video {
+    .about-video {
       height: 150%;
     }
   

@@ -9,16 +9,16 @@ const About = () => {
       <Header />
       
       <div className='h-full'>
-        <div className="overlay h-screen w-full">
+        <div className="overlay h-screen w-full flex  items-center">
           <video 
             autoPlay 
             loop 
             muted 
             className="absolute top-0 left-0 h-screen w-full object-cover"
           >
-            <source src="/8783011-hd_1920_1080_30fps.mp4" type="video/mp4" />
+            <source src="/8783011-hd_1920_1080_30fps.mp4" type="video/mp4"className='' />
           </video>
-          <div className="p-28 items-center relative z-10">
+          <div className="p-28 flex  flex-col  relative z-10 h-3/4 md:justify-center">
             <p className='font-bold text-3xl leading-relaxed text-white w-full'>Who Are We</p>
             <h1 className="font-bold text-5xl leading-relaxed text-white w-full">
               PineBridge Overview
