@@ -6,7 +6,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
-import { FreeMode, Pagination,Navigation} from 'swiper/modules';
+import { FreeMode, Pagination} from 'swiper/modules';
 import { RxArrowTopRight } from 'react-icons/rx';
 const Why = () => {
   return (
@@ -43,34 +43,32 @@ const Why = () => {
   </div>
   <img src="/webimage-CR-2024-Thumbnail.webp" alt="" className='w-full lg:w-auto max-w-xs lg:max-w-none h-auto' />
 </div>
-        <div className='h-screen w-full  justify-center items-center px-36 p-20'>
+        <div className='h-full w-full  justify-center items-center md:px-36 md:p-20'>
           <h1 className='font-bold text-5xl leading-relaxed text-black  w-full'>Partnering With Community Programs</h1>
           <p className='w-full'>PineBridge employees are empowered to make a difference in their own communities through donating their time, money, and expertise to support various community initiatives.</p>
           <Swiper
       spaceBetween={50}
       slidesPerView={3}
-      className=' h-screen '
-      navigation={true} modules={[Navigation]}
-     
+      className=' h-full static w-full'
     >
-      <SwiperSlide><img src="/pexels-martine-savard-158139-34543.jpg" alt="style=" className='w-full h-2/4 p-4 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
-      <SwiperSlide><img src="/pexels-a-darmel-8134100.jpg" alt="style=" className='w-full h-2/4 p-4 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
-      <SwiperSlide><img src="/pexels-dwanghong-29354033.jpg" alt="style=" className='w-full h-2/4 p-4 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
-      <SwiperSlide><img src="/pexels-elles-bielitschi-2097331614-29340786.jpg" alt="style=" className='w-full h-2/4 p-4 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
-      <SwiperSlide><img src="/pexels-erika-andrade-1358382831-28347064.jpg" alt="style=" className='w-full h-2/4 p-4 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
-      <SwiperSlide><img src="/pexels-ihsanaditya-28196491.jpg" alt="style=" className='w-full h-2/4 p-4 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
-      <SwiperSlide><img src="/pexels-hyundaimotorgroup-19317897.jpg" alt="style=" className='w-full h-2/4 p-4 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
-      <SwiperSlide><img src="/pexels-passengerslover-27036751.jpg" alt="style=" className='w-full h-2/4 p-4 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
+      <SwiperSlide><img src="/pexels-martine-savard-158139-34543.jpg" alt="style=" className='object-cover w-full h-60 p-4 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
+      <SwiperSlide><img src="/pexels-a-darmel-8134100.jpg" alt="style=" className=' object-cover w-full h-60 p-4 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
+      <SwiperSlide><img src="/pexels-dwanghong-29354033.jpg" alt="style=" className=' object-cover w-full h-60 p-4 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
+      <SwiperSlide><img src="/pexels-elles-bielitschi-2097331614-29340786.jpg" alt="style=" className=' object-cover w-full h-60 p-4 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
+      <SwiperSlide><img src="/pexels-erika-andrade-1358382831-28347064.jpg" alt="style=" className='w-full object-cover h-60 p-4 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
+      <SwiperSlide><img src="/pexels-ihsanaditya-28196491.jpg" alt="style=" className='w-full h-60 object-cover p-4 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
+      <SwiperSlide><img src="/pexels-hyundaimotorgroup-19317897.jpg" alt="style=" className='w-full object-cover h-60 p-4 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
+      <SwiperSlide><img src="/pexels-passengerslover-27036751.jpg" alt="style=" className='w-full object-cover h-60 p-4 0bject-cover  rounded-2xl mx-auto' /></SwiperSlide>
       
     </Swiper>
         </div>
       
-        <div className='h-screen w-full  text-black '>
+        <div className='w-full  text-black '>
            <div className='pt-20 pl-4'>
            <h1 className='font-bold text-3xl leading-relaxed w-full'>Investing in a Diverse Future Workforce</h1>
            <p>We partner with leading organizations to offer internships opportunities for a diverse range of future workforce participants</p>
            </div>
-            <div className='h-screen w-full flex justify-center items-center pl-4'>
+            <div className='h-full w-full flex justify-center items-center pl-4 flex-col md:flex-row'>
               <div className=''>
               <img src="/oppnet-logo.svg" alt="" className='w-3/5 pb-10' />
               <h3 className='text-3x1 font-bold pl-12'>New York</h3>
@@ -89,17 +87,17 @@ const Why = () => {
               
             </div>
             <div className='w-full  place-items-center pb-6 '>
-              <img src="/wampilotprogramme.webp" alt="" className='h-fit w-1/4 pb-4 pr-8 ' />
+              <img src="/wampilotprogramme.webp" alt="" className='w-1/4 pb-4 pr-8 ' />
               <h1 className='font-bold'>Hong Kong</h1>
-              <p className='w-1/3'>The Hong Kong Government Subsidized Summer Internship Program (“SIP”) is an intercity initiative to provide undergraduate students exposure to career opportunities in the finance industry.</p>
+              <p className='md:w-1/3 w-full'>The Hong Kong Government Subsidized Summer Internship Program (“SIP”) is an intercity initiative to provide undergraduate students exposure to career opportunities in the finance industry.</p>
               </div>
-              <div className='w-full bg-slate-200 flex justify-between items-center leading-relaxed'>
-                <div className='p-8 w-1/2 pb-8'>
+              <div className='w-full bg-slate-200 flex justify-between items-center leading-relaxed flex-col md:flex-row'>
+                <div className='p-8 md:w-1/2 pb-8 w-5/6'>
                   <h1 className='text-3xl '>Employee Action: #pinebridgepledge</h1>
                   <p>#pinebridgepledge brings employees together to take positive action in their local communities, with a focus on youth-oriented and educational programs. Learn more about recent financial literacy initiatives and other volunteer efforts across the globe</p>
                 <button className='bg-green-600 rounded-1xl w-1/4 h-10 text-white  '>learn More</button>
                 </div>
-                <img src="/webimage-1536300065.webp" alt="" className='w-1/4 h-60 object-cover' />
+                <img src="/webimage-1536300065.webp" alt="" className='md:w-1/4 h-60 w-3/4 object-cover' />
               </div>
         </div>
     </div>
