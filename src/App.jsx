@@ -10,7 +10,7 @@ import Why from "./component/pages/why/Why"
 import Invest from "./component/pages/Invest/Invest";
 import Testimonals from "./component/pages/Testimonals/Testimonals";
 import Policy from "./component/pages/Policy/Policy";
-// import Partner from "./component/pages/Partner/Partner";
+import Partner from "./component/pages/Partner/Partner";
 
 
 const App = () => {
@@ -33,7 +33,7 @@ const App = () => {
         <Route path="/invest"  element={<Invest/>}/>
         <Route path="/testimonials"  element={<Testimonals/>}/>
         <Route path="/policy"  element={<Policy/>}/>
-        {/* <Route path="/partner"  element={<Partner/>}/> */}
+        <Route path="/partner"  element={<Partner/>}/>
       </Routes>
     
       
