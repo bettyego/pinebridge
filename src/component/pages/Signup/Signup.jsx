@@ -7,6 +7,7 @@ const Signup = () => {
   return (
     <>
       <Header />
+      <div className='background'>
       <div className="signup-container">
         <div className="signup-box">
           <h2 className="signup-title">Sign Up</h2>
@@ -56,6 +57,7 @@ const Signup = () => {
             <button className="signup-btn" type="submit">Sign Up</button>
           </form>
         </div>
+      </div>
       </div>
       <Footer />
     </>

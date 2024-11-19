@@ -6,7 +6,7 @@ const Invest= () => {
   return (
     <>
     <Header />
-    <div className='bg-blue-400'>
+    <div className='ibg h-full w-full'>
       <div className="max-w-7xl mx-auto p-12">
         <h2 className="text-3xl font-bold text-white mb-4">Investment Plans</h2>
         <div className="flex flex-col">
