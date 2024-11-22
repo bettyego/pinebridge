@@ -1,12 +1,20 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { CiMenuFries } from "react-icons/ci";
 import { useState } from 'react';
 import './Header.css'
+
+
+
 const Header = () => {
+
+ 
+
+
+
+
   const [open, setOpen] = useState(false);
   return (
-    <div className='flex  text-gray-600 w-full pt-2 pb-2 pl-2 justify-between items-center  '>
+    <header className='flex  text-gray-600 w-full pt-2 pb-2 pl-2 justify-between items-center  sticky top-0 z-20 bg-white'>
         <img src="/pinebridge-old-green-logo.svg" alt="" className='w-52' />
         <div className='menu-container text-4xl' onClick={()=>{
           setOpen(!open)
@@ -23,7 +31,7 @@ const Header = () => {
                     <li><Link to="/testimonials">Testimonals</Link></li>
                     <li><Link to="/Mem">Partnership</Link></li>
                     <li><Link to="/policy">Policy</Link></li>
-                    <li><Link to="">Help</Link></li>
+                    <li><Link to="/help">Help</Link></li>
                     <li><Link to="/signup">sign Up</Link></li>
                     <li><Link to="/login">Login</Link></li>
                 </ul>
@@ -36,12 +44,12 @@ const Header = () => {
             <li><Link to="/testimonials">Testimonals</Link></li>
             <li><Link to="/partner">Partnership</Link></li>
             <li><Link to="/policy">Policy</Link></li>
-            <li><Link to="">Help</Link></li>
+            <li><Link to="/help">Help</Link></li>
             <li><Link to="/signup">sign Up</Link></li>
             <li><Link to="/login">Login</Link></li>
 
         </ul>
-    </div>
+    </header>
   )
 }
 

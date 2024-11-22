@@ -1,8 +1,39 @@
-import React from 'react';
 import Header from '../../Company/Header/Header';
 import Footer from '../../Company/Footer/Footer';
+import { useState } from 'react';
 
 const Login = () => {
+  const [email,setEmail] = useState('')
+  const [password,setPassword] = useState('')
+
+  const loginFunction = async()=>{
+    try {
+      const data = {
+        email,
+        password
+      }
+
+      const request = await fetch('http://localhost:5000/api/auth/login',{
+        method:'POST',
+        headers:{
+          'Content-Type':'application/json'
+        },
+        body:JSON.stringify(data)
+      })
+
+      const response = await request.json()
+      console.log(response)
+      if(request.status === 200){
+        localStorage.setItem('token',response.token)
+        window.location.href = '/dashboard'
+      }else{
+        alert('invalid email or password')
+      }
+    } catch (error) {
+      console.log(error)
+    }
+
+  }
   return (
     <>
       <Header />
@@ -11,7 +42,11 @@ const Login = () => {
           <section id="back-div" className="bg-gradient-to-r from-blue-900 to-green-900 rounded-xl sm:rounded-3xl p-4 sm:p-8">
             <div className="border-4 sm:border-8 border-transparent rounded-lg bg-white dark:bg-gray-900 shadow-md sm:shadow-xl p-4 sm:p-8 m-1 sm:m-2">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center cursor-default dark:text-gray-300 text-gray-900">Log in</h1>
-              <form action="#" method="post" className="space-y-4 sm:space-y-6">
+              <form action="#" method="post" className="space-y-4 sm:space-y-6" 
+              onSubmit={(e)=>{
+                e.preventDefault()
+                loginFunction()
+              }}>
                 <div>
                   <label htmlFor="email" className="block mb-2 text-base sm:text-lg dark:text-gray-300">Email</label>
                   <input
@@ -20,6 +55,7 @@ const Login = () => {
                     type="email"
                     placeholder="Email"
                     required
+                    onChange={(e)=>setEmail(e.target.value)}
                   />
                 </div>
                 <div>
@@ -30,6 +66,7 @@ const Login = () => {
                     type="password"
                     placeholder="Password"
                     required
+                    onChange={(e)=>setPassword(e.target.value)}
                   />
                 </div>
                 <a href="#" className="text-blue-400 text-sm transition hover:underline">Forget your password?</a>
@@ -39,7 +76,7 @@ const Login = () => {
                 >
                   LOG IN
                 </button>
-              </form>
+              </form >
               <div className="flex flex-col mt-4 text-xs sm:text-sm text-center dark:text-gray-300">
                 <p>Don't have an account? <a href="#" className="text-blue-400 transition hover:underline">Sign Up</a></p>
               </div>

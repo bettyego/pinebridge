@@ -34,7 +34,11 @@ const Hero = () => {
           Learn More
         </button>
       </div>
+      
+      
+      
     </div>
+    
   );
 };
 
