@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './Card';
-import Navbar from './NavBar';
+import Navbar from './Navbar';
 import Sidebar from './Sidebar';
 import Usertable from './Usertable';
 
