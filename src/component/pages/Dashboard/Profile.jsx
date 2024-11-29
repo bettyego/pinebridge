@@ -1,6 +1,6 @@
 import React from 'react'
 import Sidebar from './Sidebar'
-import Navbar from './NavBar'
+import Navbar from './Navbar'
 
 const Profile = () => {
   return (
