@@ -8,14 +8,14 @@ const Sidebar = () => {
         <li className="hover:bg-gray-700 p-2 rounded">
           <Link to="/dashboard">Dashboard</Link>
         </li>
-        <li className="hover:bg-gray-700 p-2 rounded">
+        <li className="hover:bg-gray-700 p-2 rounded capitalize">
           <Link to="/profile">Profile</Link>
         </li>
-        <li className="hover:bg-gray-700 p-2 rounded">
-          <Link to="/settings">Settings</Link>
+        <li className="hover:bg-gray-700 p-2 rounded capitalize">
+          <Link to="/invest">invest</Link>
         </li>
-        <li className="hover:bg-gray-700 p-2 rounded">
-          <Link to="/login">Logout</Link>
+        <li className="hover:bg-gray-700 p-2 rounded capitalize">
+          <Link to="/funds">fund account</Link>
         </li>
       </ul>
     </aside>

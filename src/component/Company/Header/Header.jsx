@@ -16,6 +16,9 @@ const Header = () => {
   return (
     <header className='flex  text-gray-600 w-full pt-2 pb-2 pl-2 justify-between items-center  sticky top-0 z-20 bg-white'>
         <img src="/pinebridge-old-green-logo.svg" alt="" className='w-52' />
+        <div id="google_translate_element" className="w-20 h-auto">
+          <div id=":0.targetLanguage"></div>
+        </div>
         <div className='menu-container text-4xl' onClick={()=>{
           setOpen(!open)
         }}>

@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../../Company/Header/Header';
 import Footer from '../../Company/Footer/Footer';
 import './Invest.css';
+import { Link } from 'react-router-dom';
 
 const Invest = () => {
   const plans = [
@@ -82,9 +83,9 @@ const Invest = () => {
                 <p className="text-white">
                   <strong>Referral Bonus:</strong> {plan.bonus}
                 </p>
-                <button className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-                  Sign Up
-                </button>
+                <Link to="/Login" className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                  Choose plan
+                </Link>
                 
               </div>
             ))}
@@ -93,8 +94,8 @@ const Invest = () => {
         </div>
         
       </div>
-      <div className='w-full  flex py-2  md:w-full'>
-         {/* Background video */}
+      {/* <div className='w-full  flex py-2  md:w-full'>
+         {Background video
       <div className='w-3/4 h-fit pr-2'>
       <video
         autoPlay
@@ -118,13 +119,17 @@ const Invest = () => {
      </div>
      
 
-      </div>
+      </div> } */}
       
-      <div className="py-10 px-4 leading-relaxed text-center sm:py-6 sm:px-6 md:px-8 ">
+      {/* <div className="py-10 px-4 leading-relaxed text-center sm:py-6 sm:px-6 md:px-8 ">
   <p className="text-xl text-green-600 sm:text-lg md:text-xl lg:text-2xl max-w-md mx-auto">
     We're an active fixed income specialist structured to deliver outcomes tailored for investors seeking to enhance the returns of their portfolios.
   </p>
-</div>
+</div> */}
+
+<div className="price-chartt-section h-screen">
+            <iframe src="https://widget.coinlib.io/widget?type=chart&theme=light&coin_id=859&pref_coin_id=1505" style={{width:"100%",height:"536px",scrolling:"none",marginWidth:"0",marginHeight:"0", frameBorder:"0", border:"0",lineHeight: '14px'}}></iframe>
+            </div>
 
 
       <Footer />

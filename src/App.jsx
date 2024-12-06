@@ -13,7 +13,11 @@ import Policy from "./component/pages/Policy/Policy";
 import Partner from "./component/pages/Partner/Partner";
 import Help from "./component/pages/Help/Help";
 import Dashboard from "./component/pages/Dashboard/Dashboard";
+import UserDashboard from "./component/pages/userDashboard/UserDashboard";
 import Profile from "./component/pages/Dashboard/Profile";
+import Payment from "./component/pages/userDashboard/payment";
+import Funds from "./component/pages/userDashboard/Funds";
+import Confirmation from "./component/pages/userDashboard/Confirmation";
 
 
 const App = () => {
@@ -39,13 +43,19 @@ const App = () => {
         <Route path="/policy"  element={<Policy/>}/>
         <Route path="/partner"  element={<Partner/>}/>
         <Route path="/help"  element={<Help/>}/>
-        <Route path="/dashboard"  element={<Dashboard/>}/>
+        <Route path="/dashboard"  element={<UserDashboard/>}/>
         <Route path="/profile"  element={<Profile/>}/>
+        <Route path="/admin"  element={<Dashboard/>}/>
+        <Route path="/payment"  element={<Payment/>}/>
+        <Route path="/funds"  element={<Funds/>}/>
+        <Route path="/confirmation"  element={<Confirmation/>}/>
+
       </Routes>
       <div className="fixed bottom-0 w-full">
       <iframe src="https://widget.coinlib.io/widget?type=horizontal_v2&amp;theme=dark&amp;pref_coin_id=1505&amp;invert_hover=" width="100%" height="36" scrolling="auto" marginWidth="0" marginHeight="0" frameborder="0" border="0" style={{border:0,margin:0,padding:0,}}>
       </iframe>
       </div>
+    
       
     </>
   );

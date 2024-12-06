@@ -1,10 +1,12 @@
 import Header from '../../Company/Header/Header';
 import Footer from '../../Company/Footer/Footer';
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
   const [email,setEmail] = useState('')
   const [password,setPassword] = useState('')
+  const navigate = useNavigate()
 
   const loginFunction = async()=>{
     try {
@@ -22,10 +24,9 @@ const Login = () => {
       })
 
       const response = await request.json()
-      console.log(response)
       if(request.status === 200){
         localStorage.setItem('token',response.token)
-        window.location.href = '/dashboard'
+        navigate('/dashboard')
       }else{
         alert('invalid email or password')
       }
