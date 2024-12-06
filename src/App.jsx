@@ -29,26 +29,28 @@ const App = () => {
       delay: 50,
     })
   }, [])
+
+  const route = 'https://pineback.vercel.app'
   return (
     <>
     
       <Routes>
-        <Route path="/"  element={<Home/>}/>
+        <Route path="/"  element={<Home />}/>
         <Route path="/about"  element={<About/>}/>
-        <Route path="/signup"  element={<Signup/>}/>
-        <Route path="/login"  element={<Login/>}/>
+        <Route path="/signup"  element={<Signup route={route}/>}/>
+        <Route path="/login"  element={<Login route={route}/>}/>
         <Route path="/why"  element={<Why/>}/>
-        <Route path="/invest"  element={<Invest/>}/>
+        <Route path="/invest"  element={<Invest route={route}/>}/>
         <Route path="/testimonials"  element={<Testimonals/>}/>
         <Route path="/policy"  element={<Policy/>}/>
         <Route path="/partner"  element={<Partner/>}/>
         <Route path="/help"  element={<Help/>}/>
-        <Route path="/dashboard"  element={<UserDashboard/>}/>
-        <Route path="/profile"  element={<Profile/>}/>
-        <Route path="/admin"  element={<Dashboard/>}/>
-        <Route path="/payment"  element={<Payment/>}/>
-        <Route path="/funds"  element={<Funds/>}/>
-        <Route path="/confirmation"  element={<Confirmation/>}/>
+        <Route path="/dashboard"  element={<UserDashboard route={route}/>}/>
+        <Route path="/profile"  element={<Profile route={route}/>}/>
+        <Route path="/admin"  element={<Dashboard route={route}/>}/>
+        <Route path="/payment"  element={<Payment route={route}/>}/>
+        <Route path="/funds"  element={<Funds route={route}/>}/>
+        <Route path="/confirmation"  element={<Confirmation route={route}/>}/>
 
       </Routes>
       <div className="fixed bottom-0 w-full">

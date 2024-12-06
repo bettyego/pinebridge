@@ -1,6 +1,6 @@
 import React, { useState, useEffect,useRef } from 'react';
 
-const Funds = () => {
+const Funds = ({route}) => {
   const [btcAddress, setBtcAddress] = useState('');
   const [depositHistory, setDepositHistory] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -19,7 +19,7 @@ const Funds = () => {
     setLoading(true);
     try {
       const token = localStorage.getItem('token');
-      const response = await fetch('http://localhost:5000/getBTCAddress', {
+      const response = await fetch(`${route}/getBTCAddress`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',

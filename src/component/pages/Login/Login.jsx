@@ -3,7 +3,7 @@ import Footer from '../../Company/Footer/Footer';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const Login = () => {
+const Login = ({route}) => {
   const [email,setEmail] = useState('')
   const [password,setPassword] = useState('')
   const navigate = useNavigate()
@@ -15,7 +15,7 @@ const Login = () => {
         password
       }
 
-      const request = await fetch('http://localhost:5000/api/auth/login',{
+      const request = await fetch(`${route}/api/auth/login`,{
         method:'POST',
         headers:{
           'Content-Type':'application/json'

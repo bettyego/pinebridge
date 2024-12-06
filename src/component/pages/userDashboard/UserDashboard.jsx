@@ -3,7 +3,7 @@ import Sidebar from '../Dashboard/Sidebar';
 import Navbar from '../Dashboard/Navbar';
 import Payment from './payment';
 
-const UserDashboard = () => {
+const UserDashboard = ({route}) => {
   const [userDetails, setUserDetails] = useState(null);
   const [plan,setPlan] = useState(null)
   const closeModal = ()=>{
@@ -12,7 +12,7 @@ const UserDashboard = () => {
 
   const fetchUserDetails = async () => {
     const token = localStorage.getItem('token');
-    const response = await fetch('http://localhost:5000/getUserDetails', {
+    const response = await fetch(`${route}/getUserDetails`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
