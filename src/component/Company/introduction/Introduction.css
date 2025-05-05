@@ -30,13 +30,13 @@
   /* Tablet adjustments */
   @media (min-width: 769px) and (max-width: 1024px) {
     .md\\:w-1\\ {
-      width: 48%; /* Slightly smaller for side-by-side on tablets */
+      width: 48%; 
     }
     .md\\:p-8 {
-      padding: 1.5rem; /* Reduce padding */
+      padding: 1.5rem; 
     }
     .md\\:mt-0 {
-      margin-top: 1rem; /* Add spacing */
+      margin-top: 1rem; 
     }
     .md\\:gap-x-16 {
       gap: 1.5rem; /* Reduce spacing */

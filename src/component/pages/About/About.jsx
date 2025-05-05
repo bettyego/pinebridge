@@ -9,7 +9,8 @@ const About = () => {
       <Header />
       
       <div className='h-full'>
-        <div className="overlay h-screen w-full flex  items-center">
+        <div className="over
+        lay h-screen w-full flex  items-center">
           <video 
             autoPlay 
             loop 

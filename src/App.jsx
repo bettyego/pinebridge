@@ -17,6 +17,7 @@ import UserDashboard from "./component/pages/userDashboard/UserDashboard";
 import Profile from "./component/pages/Dashboard/Profile";
 import Payment from "./component/pages/userDashboard/payment";
 import Funds from "./component/pages/userDashboard/Funds";
+import PaymentM from "./component/pages/userDashboard/PaymentM";
 import Confirmation from "./component/pages/userDashboard/Confirmation";
 
 
@@ -50,6 +51,7 @@ const App = () => {
         <Route path="/admin"  element={<Dashboard route={route}/>}/>
         <Route path="/payment"  element={<Payment route={route}/>}/>
         <Route path="/funds"  element={<Funds route={route}/>}/>
+        <Route path="/paymentM"  element={<PaymentM route={route}/>}/>
         <Route path="/confirmation"  element={<Confirmation route={route}/>}/>
 
       </Routes>
